@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf79ba2e-cee5-4e88-b66a-f24c2dfcc19d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../06_IntroToPHPStorm.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_PHPII.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DatabaseTest.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHPUnitXml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test #1 Review.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/app/Config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/app/Lib/Functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/app/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auction copy/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Layouts/bar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Lib/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Lib/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Bid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/BidTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/CategoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ImageTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ItemTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/SessionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogStartingFilesV1.2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogStartingFilesV1.2/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogStartingFilesV1.2/viewentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbfiles_auction.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-1/inventory_oop.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-1/inventory_oop/createMovieTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-1/inventory_oop/includes/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-1/inventory_oop/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/03_OOPwithPHP.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/displayInventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/includes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/includes/Movie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/includes/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/insertInventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/inventory_oop/insertInventoryForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/startingFilesforInvv1.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-2/wk02Examples.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/04_OOPwithPHP.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/05_OOPwithPHP.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/createMusicTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/deleteInventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/deleteInventoryForm.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/displayInventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/dropMusicTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/includes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/includes/Media.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/includes/Movie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/includes/Music.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/includes/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/insertInventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/insertInventoryForm.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/insertInventoryForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/updateInventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-3/inventory_oop/updateInventoryForm.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/addcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/addentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/dbfiles_blog/create_blog_tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/dbfiles_blog/manage_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/dbfiles_blog/manage_comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/dbfiles_blog/manage_entries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/dbfiles_blog/manage_logins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/Entry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/tests/DatabaseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/updateentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/viewcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/blog_oop/viewentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-4/databaseTest.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/07_PHPII.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/addcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/addentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/dbfiles_blog/create_blog_tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/dbfiles_blog/manage_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/dbfiles_blog/manage_comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/dbfiles_blog/manage_entries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/dbfiles_blog/manage_logins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/Entry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/tests/CommentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/tests/DatabaseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/tests/SessionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/tests/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/updateentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/viewcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-5/viewentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/07_PHPII.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/addcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/addentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/dbfiles_blog/create_blog_tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/dbfiles_blog/manage_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/dbfiles_blog/manage_comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/dbfiles_blog/manage_entries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/dbfiles_blog/manage_logins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/Entry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/includes/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/tests/CategoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/tests/CommentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/tests/DatabaseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/tests/EntryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/tests/SessionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/tests/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/updateentry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/viewcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week-6/viewentry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2H0LwjGpePyCw2LmJgRr9KRVZIs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "DEFAULT",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Unit" />
+      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf79ba2e-cee5-4e88-b66a-f24c2dfcc19d" name="Changes" comment="" />
+      <created>1667417294254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667417294254</updated>
+      <workItem from="1667417295397" duration="2424000" />
+      <workItem from="1667419736588" duration="8062000" />
+      <workItem from="1667913552360" duration="746000" />
+      <workItem from="1667914307904" duration="5254000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
