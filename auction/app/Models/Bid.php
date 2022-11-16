@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
-class Bid
+use App\Lib\Model;
+
+class Bid extends Model
 {
     protected static string $table_name = 'bids';
     protected int $id = 0;

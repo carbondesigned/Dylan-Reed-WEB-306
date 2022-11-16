@@ -2,19 +2,23 @@
 
 namespace App\Models;
 
-class Item
+use App\Lib\Model;
+
+class Item extends Model
 {
     protected static string $table_name = 'items';
-    protected int $id = 0;
-    protected string $name;
-    protected string $description;
-    protected int $cat_id;
-    protected int $user_id;
-    protected int $notified = 0;
-    protected float $price;
-    protected string $date;
+    protected $id = 0;
+    protected $name;
+    protected $description;
+    protected $cat_id;
+    protected $user_id;
+    protected $notified = 0;
+    protected $price;
+    protected $date;
+    protected $imageObjs;
+    protected $bidObjs;
 
-    public function __construct(string $name, string $description, int $cat_id, int $user_id, float $price, string $date)
+    public function __construct($user_id, $cat_id, $name, $price, $description, $date)
     {
         $this->name = $name;
         $this->description = $description;
@@ -22,6 +26,15 @@ class Item
         $this->user_id = $user_id;
         $this->price = $price;
         $this->date = $date;
+    }
+
+    public function getImages(): array {
+        $this->imageObjs = Image::find('item_id', $this->id);
+        return $this->imageObjs;
+    }
+    public function getBids(): array {
+        $this->bidObjs = Bid::find('item_id', $this->id);
+        return $this->bidObjs;
     }
 
 }

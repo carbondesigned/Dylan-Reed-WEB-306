@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
-class User
+use App\Lib\Model;
+
+class User extends Model
 {
     protected static string $table_name = 'users';
     protected int $id = 0;
