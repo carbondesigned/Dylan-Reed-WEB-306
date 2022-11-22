@@ -96,7 +96,7 @@ echo "<h3>Bid for this item</h3>";
 
 // check if user is logged in using the Session class
 if ($session->isLoggedIn()) {
-    echo "To bid, you need to log in. Login <a href='login.php?id=" . $validid . "&ref=addbid'>here</a>";
+    echo "To bid, you need to log in. Login <a href='logout.php?id=" . $validid . "&ref=addbid'>here</a>";
 }
 
 if ($validAuction == true) {

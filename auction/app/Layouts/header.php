@@ -17,7 +17,7 @@
         if ($session->isLoggedIn()) {
             echo "<a href='logout.php'>Logout</a> &bull;";
         } else {
-            echo "<a href='login.php'>Login</a> &bull;";
+            echo "<a href='logout.php'>Login</a> &bull;";
         }
         ?>
 

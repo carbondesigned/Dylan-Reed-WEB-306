@@ -70,4 +70,63 @@ abstract class Model
          if (empty($objs)) throw new ClassException("Model not found");
          return $objs;
     }
+
+    public function create($cond = []) {
+        if (!empty($cond)) {
+            $condition = static::find($cond);
+            if (!empty($condition)) {
+                return false;
+            }
+        }
+        $newId = $this->insert();
+        $this->id = $newId;
+        return $this;
+    }
+    private function insert() {
+        $db = Database::getConnection();
+        $bindVals = static::getColumnNames();
+
+        $sql = "INSERT INTO `" . static::$table_name . "`";
+        $sql .= "(";
+        $sql .= implode(", ", array_keys($bindVals));
+        $sql .= ") VALUES (";
+        $bindings = [];
+
+        foreach (array_keys($bindVals) as $key) {
+            $bindings[] = ":$key";
+        }
+        $sql .= implode(", ", $bindings);
+        $sql .= ")";
+
+        $db->sqlQuery($sql, $bindVals);
+        return $db->lastInsertId();
+    }
+    private function getColumnNames(): array {
+        $db = Database::getConnection();
+        $table_data = ($db->sqlQuery("DESCRIBE " . static::$table_name, null, true))->fetchAll(PDO::FETCH_ASSOC);
+
+        $table_props = array_map(function ($a) {
+            return $a['Field'];
+        }, $table_data);
+
+        try {
+            $reflect = new ReflectionClass($this);
+            $reflectProps = $reflect->getProperties();
+            $props = array_column(array_map(function ($a) {
+                $a->setAccessible(true);
+                return [$a->getName(), $a->getValue($this)];
+
+            }, $reflectProps, 1, 0));
+        } catch (ReflectionException $e) {
+            Logger::getLogger()->critical("reflection error: ", ['exception' => $e]);
+        }
+        $names = array_intersect_key($props, array_flip($table_props));
+        return $names;
+    }
+
+    public function delete() {
+        $db = Database::getConnection();
+        $sql = "DELETE FROM `" . static::$table_name . "` WHERE id = :id";
+        return $db->sqlQuery($sql, ['id' => $this->id]);
+    }
 }
