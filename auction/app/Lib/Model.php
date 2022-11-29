@@ -129,4 +129,17 @@ abstract class Model
         $sql = "DELETE FROM `" . static::$table_name . "` WHERE id = :id";
         return $db->sqlQuery($sql, ['id' => $this->id]);
     }
+
+    public function update() {
+        $db = Database::getConnection();
+        $bindVals = static::getColumnNames();
+        $sql = "UPDATE `" . static::$table_name . "` SET ";
+        $bindings = [];
+        foreach (array_keys($bindVals) as $key) {
+            $bindings[] = "`$key` = :$key";
+        }
+        $sql .= implode(", ", $bindings);
+        $sql .= " WHERE id = :id";
+        return $db->sqlQuery($sql, $bindVals);
+    }
 }

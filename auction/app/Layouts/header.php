@@ -4,12 +4,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title><?php echo CONFIG_ACTIONNAME; ?></title>
+        <title><?php echo CONFIG_AUCTIONNAME; ?></title>
         <link rel="stylesheet" href="<?php echo CONFIG_URL ?>/css/stylesheet.css" type="text/css">
     </head>
     <body>
         <div id="header">
-            <h1><?php echo CONFIG_ACTIONNAME; ?></h1>
+            <h1><?php echo CONFIG_AUCTIONNAME; ?></h1>
         </div>
     <div id="menu">
         <a href="index.php">Home</a> &bull;
@@ -17,7 +17,7 @@
         if ($session->isLoggedIn()) {
             echo "<a href='logout.php'>Logout</a> &bull;";
         } else {
-            echo "<a href='logout.php'>Login</a> &bull;";
+            echo "<a href='login.php'>Login</a> &bull;";
         }
         ?>
 

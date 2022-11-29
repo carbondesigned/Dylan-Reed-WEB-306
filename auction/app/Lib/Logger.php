@@ -24,9 +24,9 @@ class Logger
             $channels = [
                 new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Monolog::DEBUG),
                 new StreamHandler(LOG_LOCATION, Monolog::DEBUG),
-                new NativeMailerHandler(CONFIG_ADMINEMAIL, CONFIG_ACTIONNAME . " Error", CONFIG_ADMINEMAIL, Monolog::ERROR),
+                new NativeMailerHandler(CONFIG_ADMINEMAIL, CONFIG_AUCTIONNAME . " Error", CONFIG_ADMINEMAIL, Monolog::ERROR),
             ];
-                $this->log = new Monolog(CONFIG_ACTIONNAME);
+                $this->log = new Monolog(CONFIG_AUCTIONNAME);
         } catch (\Exception $err) {
             die();
         }
