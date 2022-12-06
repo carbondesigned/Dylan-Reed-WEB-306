@@ -35,6 +35,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypal-checkout-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypalhttp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

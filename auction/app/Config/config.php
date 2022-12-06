@@ -17,3 +17,9 @@ const CONFIG_CURRENCY = "$";
 CONST LOG_LOCATION = __DIR__ . "/../../logs/app.log";
 
 const FILE_UPLOADLOC = "imgs/";
+
+const CLIENT_ID = "AV1ty8uHl5po7ixOB7TSF6H2b3T6nomsIZTpoFZE2pFtSMXT9OqXHnk515tGkOTpyDlr_FaEHUEcWQpo";
+const CLIENT_SECRET = "EI-AVizMG7c-9DbBxAmUlmVd5gDbRirx9MSb_gu1NiTv-L-LZZCtHWfYVcdSWXOtw1KYXxk-VZMtDRji";
+const PAYPAL_CURRECY = "CAD";
+const PAYPAL_RETURNURL = CONFIG_URL . "/payment-successful.php";
+const PAYPAL_CANCELURL = CONFIG_URL . "/payment-cancelled.php";

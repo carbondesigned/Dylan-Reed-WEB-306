@@ -1,4 +1,5 @@
 <?php
+use \App\Models\Payment;
 
 /**
  * @param $value
@@ -33,3 +34,7 @@ function pf_validate_number($value, $function, $redirect) {
 
 	return $final;
 }
+
+$generateButton = function ($id) {
+    return Payment::generatePayment($id);
+};
